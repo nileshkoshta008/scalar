@@ -68,7 +68,7 @@ def get_client_and_model():
                 target_model = "llama-3.3-70b-versatile"
         elif not str(target_key).startswith("sk-") and HF_TOKEN:
             print("[DEBUG] Hugging Face provider detected.", file=sys.stderr)
-            target_url = "https://api-inference.huggingface.co/v1/"
+            target_url = "https://router.huggingface.co/v1/"
             target_key = HF_TOKEN
             if target_model == "gpt-3.5-turbo":
                 target_model = "meta-llama/Llama-3.1-8B-Instruct"
