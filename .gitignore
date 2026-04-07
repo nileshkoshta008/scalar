@@ -1,0 +1,17 @@
+# Environment Variables
+.env
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+debug_stderr.log
+clean_stdout.log
+run.log
+
+# IDEs
+.vscode/
+.idea/
